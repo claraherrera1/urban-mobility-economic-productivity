@@ -57,7 +57,7 @@ Within the analyzed sample, **Bogotá** combined above-average congestion with b
 
 ## Visualizations & Notebook
 
-The complete Jupyter Notebook and selected visualizations will be added to this repository after a final review of file paths, reproducibility and publication permissions. The approved academic analysis and its findings remain unchanged.
+The Jupyter Notebook and final processed dataset are being prepared for publication. The notebook currently expects the original TomTom and OECD CSV files under `data/raw/`; the processed CSV alone is **not** sufficient to rerun the entire data preparation pipeline. The original traffic CSV is approximately 142 MB and is not included in this repository.\n\nPython dependencies are listed in [`requirements.txt`](requirements.txt). The approved academic findings remain unchanged.
 
 ## Project Context
 
