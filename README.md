@@ -55,6 +55,28 @@ Within the analyzed sample, **Bogotá** combined above-average congestion with b
 - Validate source coverage, comparability and possible outliers before drawing policy conclusions.
 - **Correlation does not imply causation.** This exploratory analysis cannot establish that traffic congestion causes lower economic productivity.
 
+## Exploratory Data Visualizations
+
+The following charts are generated from the **15-city processed 2024 dataset** included in this repository.
+
+### Congestion and Economic Productivity
+
+![Scatter plot of congestion delay versus GDP per capita for 15 cities, with Bogotá highlighted and sample mean lines](images/congestion_vs_gdp.svg)
+
+The relationship between congestion delay and GDP per capita was **weakly positive (r = 0.28)**, not strongly negative. Bogotá had above-average congestion and below-average GDP per capita within this sample. These observations are descriptive, not causal.
+
+### Distribution of Traffic Congestion
+
+![Boxplot of congestion delay, showing the sample mean and high-delay outliers](images/congestion_boxplot.svg)
+
+The mean congestion delay was **629.52 minutes**. The distribution was right-skewed, with some cities recording substantially higher delays than most of the sample.
+
+### Distribution of GDP per Capita
+
+![Histogram of GDP per capita across the 15 analyzed cities](images/gdp_histogram.svg)
+
+The sample mean GDP per capita was **13,253.60**. City-level differences are considerable, underscoring why a single traffic indicator cannot explain economic performance.
+
 ## Project Resources
 
 - **[View the Jupyter Notebook](urban_mobility_analysis.ipynb)** — Full documented analytical workflow, including data preparation, visualizations and findings.
