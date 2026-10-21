@@ -55,9 +55,15 @@ Within the analyzed sample, **Bogotá** combined above-average congestion with b
 - Validate source coverage, comparability and possible outliers before drawing policy conclusions.
 - **Correlation does not imply causation.** This exploratory analysis cannot establish that traffic congestion causes lower economic productivity.
 
-## Visualizations & Notebook
+## Project Resources
 
-The Jupyter Notebook and final processed dataset are being prepared for publication. The notebook currently expects the original TomTom and OECD CSV files under `data/raw/`; the processed CSV alone is **not** sufficient to rerun the entire data preparation pipeline. The original traffic CSV is approximately 142 MB and is not included in this repository.\n\nPython dependencies are listed in [`requirements.txt`](requirements.txt). The approved academic findings remain unchanged.
+- **[View the Jupyter Notebook](urban_mobility_analysis.ipynb)** — Full documented analytical workflow, including data preparation, visualizations and findings.
+- **[Explore the Cleaned Dataset](data/processed/ladb_mobility_economy_2024_clean.csv)** — Final integrated city-level dataset for 2024.
+- **[Python Dependencies](requirements.txt)** — Packages used in the analysis.
+
+### Reproducibility Note
+
+The notebook uses the original TomTom and OECD source CSV files in `data/raw/`, which are not included in this repository. The published processed CSV supports inspection of the final analytical dataset but does **not** by itself reproduce the full data preparation pipeline. The original traffic file is approximately 142 MB.
 
 ## Project Context
 
